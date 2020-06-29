@@ -13,13 +13,13 @@ df = pd.read_excel (r'missing_data.xlsx')
 numlist= []
 count = 0;
 
-for row in df['رقم البطاقه']:
+#for row in df['رقم البطاقه']:
 
-    if pd.isna(row) and pd.isna(df['الايميل'][count])  :
+   # if pd.isna(row) and pd.isna(df['الايميل'][count])  :
        #print(row , '--' , df['الايميل'][count])
-       numlist.append(count)
+    #   numlist.append(count)
 
-    count+=1
+   # count+=1
 
 #df = df.drop(numlist)
 ############
