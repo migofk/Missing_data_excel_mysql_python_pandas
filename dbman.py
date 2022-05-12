@@ -5,7 +5,7 @@ class dbman:
     host="localhost",
     user="root",
     password="",
-    database="hazem_dash"
+    database="database"
   )
   mycursor = mydb.cursor()
   def checkexam(self,user_id):
